@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="badfa1a9-b63f-40a8-92b5-a9779059cd2b" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.Generic.List`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://abcendserviceiishost.azurewebsites.net/service.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="DBService1.wsdl" MetadataType="Wsdl" ID="0b2bd927-5c1d-4f87-9679-9d776fe965b8" SourceId="1" SourceUrl="http://abcendserviceiishost.azurewebsites.net/Service.svc?wsdl" />
+    <MetadataFile FileName="Service3.xsd" MetadataType="Schema" ID="96c5074a-de99-440e-aaaa-e4f282b93d00" SourceId="1" SourceUrl="http://abcendserviceiishost.azurewebsites.net/Service.svc?xsd=xsd0" />
+    <MetadataFile FileName="Service31.xsd" MetadataType="Schema" ID="b84d5e04-cb35-4185-821d-d62924b21c00" SourceId="1" SourceUrl="http://abcendserviceiishost.azurewebsites.net/Service.svc?xsd=xsd2" />
+    <MetadataFile FileName="Service32.xsd" MetadataType="Schema" ID="42bd8f21-bc71-4824-b620-db090e38e99c" SourceId="1" SourceUrl="http://abcendserviceiishost.azurewebsites.net/Service.svc?xsd=xsd1" />
+    <MetadataFile FileName="Service1.disco" MetadataType="Disco" ID="206c603d-229a-4c8b-809c-04f8f642204f" SourceId="1" SourceUrl="http://abcendserviceiishost.azurewebsites.net/Service.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
